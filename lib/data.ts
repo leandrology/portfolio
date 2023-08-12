@@ -5,9 +5,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
-import breadsImg from "@/assets/proj3.jpg"
-import vicesImg from "@/assets/proj2.jpg"
-import patagueImg from "@/assets/proj1.jpg"
+import breadsImg from "../assets/proj3.jpg";
+import vicesImg from "../assets/proj2.jpg";
+import patagueImg from "../assets/proj1.jpg";
 
 export const links = [
   {
