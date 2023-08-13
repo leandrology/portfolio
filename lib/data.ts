@@ -8,7 +8,7 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 import breadsImg from "../assets/proj3.jpg";
 import vicesImg from "../assets/proj2.jpg";
 import patagueImg from "../assets/proj1.jpg";
-
+import fillaronImg from "../assets/proj4.jpg";
 export const links = [
   {
     name: "Home",
@@ -73,13 +73,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  
   {
     title: "Vices",
-    description: "An online platform that allows customers to browse and purchase laptops integrated with Stripe.",
+    description:
+      "An online platform that allows customers to browse and purchase laptops integrated with Stripe.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind", "Sanity", "Stripe"],
     imageUrl: vicesImg,
-    url: 'https://vices-sigma.vercel.app',
+    url: "https://vices-sigma.vercel.app",
   },
   {
     title: "Patague Land Surveys",
@@ -87,28 +87,46 @@ export const projectsData = [
       "A comprehensive platform dedicated to providing top-quality land surveying services",
     tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer", "Swiper"],
     imageUrl: patagueImg,
-    url: 'https://pataguelandsurveys.vercel.app',
-
+    url: "https://pataguelandsurveys.vercel.app",
   },
   {
     title: "Breads",
     description:
       "A web app that allows users to engage in public conversations, create profiles, and connect with communities.",
-    tags: ["React", "Next.js", "TypeScript", "Tailwind", "MongoDB", "Clerk", "ShadCDN", "Zod"],
+    tags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "MongoDB",
+      "Express",
+      "Node",
+      "Clerk",
+      "ShadCDN",
+      "Zod",
+    ],
     imageUrl: breadsImg,
-    url: 'https://breads-silk.vercel.app',
-
+    url: "https://breads-silk.vercel.app",
   },
   {
     title: "Fillaron",
     description:
-      "Fillaron is good ",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-    url: 'https://vices-sigma.vercel.app',
-
+      "AI web app that generates imaginative and visually stunning images.",
+    tags: [
+      "React",
+      "Next.JS",
+      "Express",
+      "MongoDB",
+      "Node",
+      "OpenAI",
+      "Tailwind",
+      "Typescript",
+      "Vite",
+      "Cloudinary",
+    ],
+    imageUrl: fillaronImg,
+    url: "https://fillaron.netlify.app",
   },
-  
 ] as const;
 
 export const skillsData = [
