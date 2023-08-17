@@ -97,33 +97,33 @@ export default function Contact() {
         }}
       >
         <div className="w-[350px] px-6 flex items-center justify-between mb-[-100px]">
-          <div className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10">
-            <a href="https://m.me/lemmitry" target="_blank">
+          <a href="https://m.me/lemmitry" target="_blank">
+            <div className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10">
               <FaFacebookMessenger />
               <div className="opacity-0 bg-black text-white text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 bottom-full -translate-x-1/2 px-4 pointer-events-none">
                 Messenger
               </div>
-            </a>
-          </div>
-          <div className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10">
-            <a
-              href="https://www.linkedin.com/in/leander-josh-panganiban-17b421214/"
-              target="_blank"
-            >
+            </div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/leander-josh-panganiban-17b421214/"
+            target="_blank"
+          >
+            <div className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10">
               <FaLinkedinIn />
               <div className="opacity-0 bg-black text-white text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 bottom-full -translate-x-1/2 px-4 pointer-events-none">
                 LinkedIn
               </div>
-            </a>
-          </div>
-          <div className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10">
-            <a href="https://www.github.com/leandrology" target="_blank">
+            </div>
+          </a>
+          <a href="https://www.github.com/leandrology" target="_blank">
+            <div className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10">
               <FaGithub />
               <div className="opacity-0 bg-black text-white text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 bottom-full -translate-x-1/2 px-4 pointer-events-none">
                 GitHub
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </motion.div>
     </motion.section>
