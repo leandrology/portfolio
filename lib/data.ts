@@ -9,6 +9,7 @@ import breadsImg from "../assets/proj3.jpg";
 import vicesImg from "../assets/proj2.jpg";
 import patagueImg from "../assets/proj1.jpg";
 import fillaronImg from "../assets/proj4.jpg";
+import bookieImg from "../assets/proj5.jpg";
 export const links = [
   {
     name: "Home",
@@ -69,7 +70,6 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2023",
   },
-
 ] as const;
 
 export const projectsData = [
@@ -82,12 +82,20 @@ export const projectsData = [
     url: "https://vices-sigma.vercel.app",
   },
   {
-    title: "Patague Land Surveys",
+    title: "Bookie",
     description:
-      "A comprehensive platform dedicated to providing top-quality land surveying services",
-    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer", "Swiper"],
-    imageUrl: patagueImg,
-    url: "https://pataguelandsurveys.vercel.app",
+      "A web bookstore where you can chat with an AI support regarding the products.",
+    tags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "OpenAI",
+      "Chatbot",
+      "ShadCDN",
+    ],
+    imageUrl: bookieImg,
+    url: "https://bookie-henna.vercel.app/",
   },
   {
     title: "Breads",
@@ -107,6 +115,14 @@ export const projectsData = [
     ],
     imageUrl: breadsImg,
     url: "https://breads-silk.vercel.app",
+  },
+  {
+    title: "Patague Land Surveys",
+    description:
+      "A comprehensive platform dedicated to providing top-quality land surveying services",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer", "Swiper"],
+    imageUrl: patagueImg,
+    url: "https://pataguelandsurveys.vercel.app",
   },
   {
     title: "Fillaron",
