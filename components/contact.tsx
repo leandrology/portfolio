@@ -48,11 +48,13 @@ export default function Contact() {
           />
         </div>
         <div className="px-6 md:px-6 py-6 md:py-0 lg:p-6">
+          <SectionHeading>How to contact me? It's easy</SectionHeading>
+
           <p className="text-gray-700 -mt-6 dark:text-white/80">
             Kindly fill the form <span className="font-medium">or </span>{" "}
             contact me directly at{" "}
-            <a className="underline" href="mailto:leandrology@gmail.com">
-              leandrology@gmail.com
+            <a className="underline" href="mailto:hello@leanderjosh.tech">
+              hello@leanderjosh.tech
             </a>
           </p>
           <form
