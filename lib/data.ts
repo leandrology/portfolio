@@ -167,9 +167,9 @@ export const skillsData = [
   "Clerk",
   "Sanity",
   "Figma",
-  "Wordpress",
-  "Shopify",
+  "Botpress",
+  "Stack AI",
+  "OpenAI",
   "Photoshop",
   "Premiere Pro",
-  "Davinci Resolve",
 ] as const;
