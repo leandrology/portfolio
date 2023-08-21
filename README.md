@@ -1,5 +1,5 @@
 # Leander Josh Portfolio
-## https://leanderjosh.is-a-fullstack.dev
+## https://leanderjosh.tech/
 
 ### What I learned creating my portfolio
 
