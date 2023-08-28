@@ -12,7 +12,12 @@ import callImg from "../assets/lj3.png"
 
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { FaGithub, FaLinkedinIn, FaFacebookMessenger } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedinIn,
+  FaFacebookMessenger,
+  FaSkype,
+} from "react-icons/fa";
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
 
@@ -99,18 +104,15 @@ export default function Contact() {
         }}
       >
         <div className="w-[350px] px-6 flex items-center justify-between mb-[-100px]">
-          <a href="https://m.me/lemmitry" target="_blank">
+          <a href="https://join.skype.com/invite/rAHMeMnjzvwB" target="_blank">
             <div className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10">
-              <FaFacebookMessenger />
+              <FaSkype />
               <div className="opacity-0 bg-black text-white text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 bottom-full -translate-x-1/2 px-4 pointer-events-none">
                 Messenger
               </div>
             </div>
           </a>
-          <a
-            href="https://www.linkedin.com/in/leander-josh-panganiban-17b421214/"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/in/leanderjosh" target="_blank">
             <div className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10">
               <FaLinkedinIn />
               <div className="opacity-0 bg-black text-white text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 bottom-full -translate-x-1/2 px-4 pointer-events-none">
