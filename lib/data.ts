@@ -70,6 +70,14 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2023",
   },
+  {
+    title: "ReactJS Developer",
+    location: "Cavite, PH",
+    description:
+      "Currently working as ReactJS Developer for ServingIntel — a leading provider of transaction management solutions for senior living and family dining that enables you to best serve your guests and increase operating income.",
+    icon: React.createElement(FaReact),
+    date: "2023 - present",
+  },
 ] as const;
 
 export const projectsData = [

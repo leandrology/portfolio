@@ -44,7 +44,7 @@ export default function About() {
               feeling of finally figuring out a solution to a problem.
             </p>
             <p className="mt-4">
-              For any questions you might have, you can get in touch with me{" "}
+              For any questions you might have, you can shoot me a message{" "}
               <a href="#contact" className=" font-bold">
                 here
               </a>

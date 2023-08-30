@@ -49,12 +49,14 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span>Hello, I'm </span><span className="font-bold">Leander Josh.</span>
+        <span>Hello, I'm </span>
+        <span className="font-bold">Leander Josh.</span>
         <div>
-        <span> I'm a Full-Stack Web Developer and Creative Specialist</span>.
+          <span> I'm a Full-Stack Web Developer and Creative Specialist</span>.
         </div>
         <p className="text-center text-sm font-raleway font-normal dark:text-neutral-400 text-gray-800">
-        I bring a unique blend of technical skills and creative vision to deliver visually stunning and engaging content.
+          I bring a unique blend of technical skills and creative vision to
+          deliver visually stunning and engaging content.
         </p>
       </motion.h1>
 
@@ -74,7 +76,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Hire me{" "}
+          Get in touch{" "}
           {/* <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" /> */}
         </Link>
 
