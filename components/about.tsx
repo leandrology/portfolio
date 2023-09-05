@@ -34,7 +34,7 @@ export default function About() {
         <div className="flex w-full lg:w-1/2 mb-4 justify-normal">
           <div className="mb-3 text-justify">
             <p className="whitespace-break-spaces">
-              I'm a web developer from the Philippines. I enjoy building
+              I'm a full-stack web developer from the Philippines. I enjoy building
               beautiful and functional websites to rich interactive web
               applications. Fueled with abundant energy and versatility with a
               wide range of interests, I'm always eager to learn new things and
