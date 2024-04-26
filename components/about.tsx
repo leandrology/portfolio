@@ -34,17 +34,21 @@ export default function About() {
         <div className="flex w-full lg:w-1/2 mb-4 justify-normal">
           <div className="mb-3 text-justify">
             <p className="whitespace-break-spaces">
-              I'm a full-stack web developer from the Philippines. I enjoy building
-              beautiful and functional websites to rich interactive web
-              applications. Fueled with abundant energy and versatility with a
-              wide range of interests, I'm always eager to learn new things and
-              take on new challenges. I'm also a quick learner and I'm able to
-              juggle multiple projects and roles simultaneously. My favorite
-              part of programming is the problem-solving aspect and I love the
-              feeling of finally figuring out a solution to a problem.
+            As a web developer and creative specialist, 
+            I take great pleasure in crafting visually appealing and 
+            highly functional websites, as well as rich interactive 
+            web applications. Driven by an insatiable curiosity and a 
+            diverse array of interests, I approach each project with 
+            boundless energy and adaptability. I'm constantly eager to 
+            expand my knowledge and embrace new challenges. Adapting 
+            quickly to new environments, I possess the ability to 
+            efficiently juggle multiple projects and roles simultaneously. 
+            The aspect of programming that I find most rewarding is the 
+            problem-solving process, and the sense of accomplishment that 
+            accompanies finding solutions to intricate problems.
             </p>
             <p className="mt-4">
-              For any questions you might have, you can shoot me a message{" "}
+              Should you have any inquiries, I welcome you to reach out to me directly{" "}
               <a href="#contact" className=" font-bold">
                 here
               </a>
