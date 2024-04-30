@@ -82,57 +82,6 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Vices",
-    description:
-      "An online platform that allows customers to browse and purchase laptops integrated with Stripe.",
-    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Sanity", "Stripe"],
-    imageUrl: vicesImg,
-    url: "https://vices-sigma.vercel.app",
-  },
-  {
-    title: "Bookie",
-    description:
-      "A web bookstore where you can chat with an AI support regarding the products.",
-    tags: [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "Tailwind",
-      "OpenAI",
-      "Chatbot",
-      "ShadCDN",
-    ],
-    imageUrl: bookieImg,
-    url: "https://bookie-henna.vercel.app/",
-  },
-  {
-    title: "Breads",
-    description:
-      "A web app that allows users to engage in public conversations, create profiles, and connect with communities.",
-    tags: [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "Tailwind",
-      "MongoDB",
-      "Express",
-      "Node",
-      "Clerk",
-      "ShadCDN",
-      "Zod",
-    ],
-    imageUrl: breadsImg,
-    url: "https://breads-silk.vercel.app",
-  },
-  {
-    title: "Patague Land Surveys",
-    description:
-      "A comprehensive platform dedicated to providing top-quality land surveying services",
-    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer", "Swiper"],
-    imageUrl: patagueImg,
-    url: "https://pataguelandsurveys.vercel.app",
-  },
-  {
     title: "Fillaron",
     description:
       "AI web app that generates imaginative and visually stunning images.",
@@ -150,6 +99,59 @@ export const projectsData = [
     ],
     imageUrl: fillaronImg,
     url: "https://fillaron.netlify.app",
+  },
+  
+  {
+    title: "Bookie",
+    description:
+      "A web bookstore where you can chat with an AI support regarding the products.",
+    tags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "OpenAI",
+      "Chatbot",
+      "ShadCDN",
+    ],
+    imageUrl: bookieImg,
+    url: "https://bookie-henna.vercel.app/",
+  },
+  {
+    title: "Vices",
+    description:
+      "An online platform that allows customers to browse and purchase laptops integrated with Stripe.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Sanity", "Stripe"],
+    imageUrl: vicesImg,
+    url: "https://vices-sigma.vercel.app",
+  },
+  // {
+  //   title: "Breads",
+  //   description:
+  //     "A web app that allows users to engage in public conversations, create profiles, and connect with communities.",
+  //   tags: [
+  //     "React",
+  //     "Next.js",
+  //     "TypeScript",
+  //     "Tailwind",
+  //     "MongoDB",
+  //     "Express",
+  //     "Node",
+  //     "Clerk",
+  //     "ShadCDN",
+  //     "Zod",
+  //   ],
+  //   imageUrl: breadsImg,
+  //   url: "https://breads-silk.vercel.app",
+  // },
+  
+  {
+    title: "Patague Land Surveys",
+    description:
+      "A comprehensive platform dedicated to providing top-quality land surveying services",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer", "Swiper"],
+    imageUrl: patagueImg,
+    url: "https://pataguelandsurveys.vercel.app",
   },
 ] as const;
 
